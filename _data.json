@@ -40,5 +40,17 @@
   "stories": {
     "title": "Stories",
     "header_text": "Stories"
+  },
+  "ideas": {
+    "layout": "_layout_content_only",
+    "header_text": "Website Redesign",
+    "title": "Code for Miami Website Redesign ideas",
+    "description": "Suggest ideas for how to improve the Code for Miami website."
+  },
+  "ideas-thanks": {
+    "layout": "_layout_content_only",
+    "header_text": "Thank you",
+    "title": "Thank you",
+    "description": "Thanks for your idea submission."
   }
 }
