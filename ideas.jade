@@ -1,6 +1,6 @@
 section.row.block
   .small-12.medium-8.columns
-    h1 Submit your ideas for the new website!
+    h1 Submit your ideas for making Miami great!
 section(class="row block")
   div(class="small-12 medium-8 large-5 columns")
     form(action='https://formspree.io/codeformiami@gmail.com', method='POST', autocomplete='off')
@@ -9,12 +9,12 @@ section(class="row block")
       label(for='IdeaMessage') Your idea
       textarea(name='message', id='IdeaMessage', placeholder='My idea is...', autocomplete='off', required)
       button(type='submit') Send
-      input(type='hidden', name='_subject', value='New Site Design Idea', autocomplete='off')
+      input(type='hidden', name='_subject', value='Miami Improvement Idea', autocomplete='off')
       input(type='hidden', name='_format', value='plain', autocomplete='off')
       input(type='hidden', name='_next', value='http://codefor.miami/ideas-thanks', autocomplete='off')
     .issues.text-muted
       | Any issues with this form? You can also send an email to 
-      a(href='mailto:codeformiami@gmail.com?subject=New%20Site%20Design%20Idea&body=My%20idea%20is...' id='EmailFallback') codeformiami@gmail.com
+      a(href='mailto:codeformiami@gmail.com?subject=Miami%20Improvement%20Idea&body=My%20idea%20is...' id='EmailFallback') codeformiami@gmail.com
       |  with your ideas.
 script(type='text/javascript').
   var IM = $("#IdeaMessage")
